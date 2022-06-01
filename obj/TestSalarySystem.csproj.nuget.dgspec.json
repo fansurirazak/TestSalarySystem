@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "K:\\Programming\\C_sharpp\\TestSalarySystem\\TestSalarySystem\\TestSalarySystem.csproj": {}
+    "C:\\Users\\nurha\\Documents\\sem6\\App Dev\\TestSalarySystem\\TestSalarySystem.csproj": {}
   },
   "projects": {
-    "K:\\Programming\\C_sharpp\\TestSalarySystem\\TestSalarySystem\\TestSalarySystem.csproj": {
+    "C:\\Users\\nurha\\Documents\\sem6\\App Dev\\TestSalarySystem\\TestSalarySystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Programming\\C_sharpp\\TestSalarySystem\\TestSalarySystem\\TestSalarySystem.csproj",
+        "projectUniqueName": "C:\\Users\\nurha\\Documents\\sem6\\App Dev\\TestSalarySystem\\TestSalarySystem.csproj",
         "projectName": "TestSalarySystem",
-        "projectPath": "K:\\Programming\\C_sharpp\\TestSalarySystem\\TestSalarySystem\\TestSalarySystem.csproj",
-        "packagesPath": "C:\\Users\\ariff\\.nuget\\packages\\",
-        "outputPath": "K:\\Programming\\C_sharpp\\TestSalarySystem\\TestSalarySystem\\obj\\",
+        "projectPath": "C:\\Users\\nurha\\Documents\\sem6\\App Dev\\TestSalarySystem\\TestSalarySystem.csproj",
+        "packagesPath": "C:\\Users\\nurha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nurha\\Documents\\sem6\\App Dev\\TestSalarySystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ariff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nurha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

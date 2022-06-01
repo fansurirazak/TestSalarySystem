@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestSalarySystem
 build_property.RootNamespace = TestSalarySystem
-build_property.ProjectDir = K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\
+build_property.ProjectDir = C:\Users\nurha\Documents\sem6\App Dev\TestSalarySystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem
+build_property.MSBuildProjectDirectory = C:\Users\nurha\Documents\sem6\App Dev\TestSalarySystem
 build_property._RazorSourceGeneratorDebug = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Admins/Create.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Admins/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Admins/Delete.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Admins/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Admins/Details.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Admins/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Admins/Edit.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Admins/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Admins/Index.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Admins/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Batches/Create.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Batches/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Batches/Delete.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Batches/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Batches/Details.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Batches/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Batches/Edit.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Batches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Batches/Index.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Batches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Home/Index.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Home/Privacy.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Shared/Error.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Students/Create.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Students/Delete.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Students/Details.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Students/Edit.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Students/Index.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Tutors/Create.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Tutors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Tutors/Delete.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Tutors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Tutors/Details.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Tutors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Tutors/Edit.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Tutors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Tutors/Index.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Tutors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/_ViewImports.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/_ViewStart.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[K:/Programming/C_sharpp/TestSalarySystem/TestSalarySystem/Views/Shared/_Layout.cshtml]
+[C:/Users/nurha/Documents/sem6/App Dev/TestSalarySystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ogktsbambr
