@@ -12,12 +12,15 @@ namespace TestSalarySystem.Models
 
         public string? Package { get; set; } 
 
-        public int Days { get; set; }
+        //public int Days { get; set; }
 
-        public string? BatchNumber { get; set; }
+        //public string? BatchNumber { get; set; }
+        public string? RefNo { get; set; }
  //might want to change this to enum later on.
 
         public Batch? Batch { get; set; }
         public Status? Status { get; set; }
+
+        public ICollection<Performance>? performances { get; set; }
     }
 }

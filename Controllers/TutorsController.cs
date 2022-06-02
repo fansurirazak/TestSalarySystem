@@ -56,7 +56,7 @@ namespace TestSalarySystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,Code,Contact,Password,Gender,Status")] Tutor tutor)
+        public async Task<IActionResult> Create([Bind("ID,Name,IC,Contact,Password,Gender,Status")] Tutor tutor)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace TestSalarySystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Code,Contact,Password,Gender,Status")] Tutor tutor)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,IC,Contact,Password,Gender,Status")] Tutor tutor)
         {
             if (id != tutor.ID)
             {

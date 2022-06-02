@@ -11,6 +11,9 @@ namespace TestSalarySystem.Models
         [Key]
         public int ID { get; set; }
 
+        public DateTime PayDate { get; set; }
+        public DateTime DueDate { get; set; }
+
         [DataType(DataType.Currency)]
         [Column(TypeName = "money")]
         public decimal Amount { get; set; }

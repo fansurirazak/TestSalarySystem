@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "i5w0RK2mqudJFUnqn11XL8q29jp6X6bfGxm5CXYZptifnOYxgM/AQksudlhydHRJFe/9LUR56YQKicwB16sHxg==",
+  "dgSpecHash": "BcW97rlHASKoag6BtafocC4mDIcSLwmr1yQAEvx/eqf8V+DNWq1n0sJwh3UHX1e9zGK+ZmPB7jgYqN1DU5KeJg==",
   "success": true,
   "projectFilePath": "K:\\Programming\\C_sharpp\\TestSalarySystem\\TestSalarySystem\\TestSalarySystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ariff\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\entityframeworkcore.userownumberforpaging\\0.3.0\\entityframeworkcore.userownumberforpaging.0.3.0.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\ariff\\.nuget\\packages\\microsoft.aspnet.providers.core\\2.0.0\\microsoft.aspnet.providers.core.2.0.0.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
@@ -184,5 +186,26 @@
     "C:\\Users\\ariff\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\ariff\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Providers.Core 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Providers.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

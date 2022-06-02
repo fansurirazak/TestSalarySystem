@@ -25,13 +25,7 @@
                 @Html.DisplayNameFor(model => model.Package)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Days)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.BatchNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
+                @Html.DisplayNameFor(model => model.RefNo)
             </th>
             <th></th>
         </tr>
@@ -52,13 +46,7 @@
                 @Html.DisplayFor(modelItem => item.Package)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Days)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BatchNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
+                @Html.DisplayFor(modelItem => item.RefNo)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |

@@ -47,9 +47,6 @@ namespace TestSalarySystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Role")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("ID");
 
                     b.ToTable("Admin", (string)null);
@@ -112,7 +109,12 @@ namespace TestSalarySystem.Migrations
                     b.Property<string>("Remark")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("StudentID")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
+
+                    b.HasIndex("StudentID");
 
                     b.ToTable("Performance", (string)null);
                 });
@@ -127,6 +129,12 @@ namespace TestSalarySystem.Migrations
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("money");
+
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("PayDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<int?>("TutorID")
                         .HasColumnType("int");
@@ -143,7 +151,7 @@ namespace TestSalarySystem.Migrations
                     b.Property<int>("StudentID")
                         .HasColumnType("int");
 
-                    b.Property<int>("TutorID")
+                    b.Property<int?>("TutorID")
                         .HasColumnType("int");
 
                     b.Property<string>("status")
@@ -171,20 +179,17 @@ namespace TestSalarySystem.Migrations
                     b.Property<int?>("BatchID")
                         .HasColumnType("int");
 
-                    b.Property<string>("BatchNumber")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("Days")
-                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Package")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RefNo")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
@@ -202,9 +207,8 @@ namespace TestSalarySystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
-                    b.Property<string>("Code")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("BatchID")
+                        .HasColumnType("int");
 
                     b.Property<string>("Contact")
                         .IsRequired()
@@ -212,6 +216,10 @@ namespace TestSalarySystem.Migrations
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
+
+                    b.Property<string>("IC")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -226,7 +234,37 @@ namespace TestSalarySystem.Migrations
 
                     b.HasKey("ID");
 
+                    b.HasIndex("BatchID");
+
                     b.ToTable("Tutor", (string)null);
+                });
+
+            modelBuilder.Entity("TestSalarySystem.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("IC")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("TestSalarySystem.Models.Class", b =>
@@ -236,6 +274,17 @@ namespace TestSalarySystem.Migrations
                         .HasForeignKey("TutorID");
 
                     b.Navigation("Tutor");
+                });
+
+            modelBuilder.Entity("TestSalarySystem.Models.Performance", b =>
+                {
+                    b.HasOne("TestSalarySystem.Models.Student", "Student")
+                        .WithMany("performances")
+                        .HasForeignKey("StudentID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("TestSalarySystem.Models.Salary", b =>
@@ -257,9 +306,7 @@ namespace TestSalarySystem.Migrations
 
                     b.HasOne("TestSalarySystem.Models.Tutor", "Tutor")
                         .WithMany()
-                        .HasForeignKey("TutorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TutorID");
 
                     b.Navigation("Student");
 
@@ -275,6 +322,15 @@ namespace TestSalarySystem.Migrations
                     b.Navigation("Batch");
                 });
 
+            modelBuilder.Entity("TestSalarySystem.Models.Tutor", b =>
+                {
+                    b.HasOne("TestSalarySystem.Models.Batch", "Batch")
+                        .WithMany()
+                        .HasForeignKey("BatchID");
+
+                    b.Navigation("Batch");
+                });
+
             modelBuilder.Entity("TestSalarySystem.Models.Batch", b =>
                 {
                     b.Navigation("Students");
@@ -283,6 +339,8 @@ namespace TestSalarySystem.Migrations
             modelBuilder.Entity("TestSalarySystem.Models.Student", b =>
                 {
                     b.Navigation("Status");
+
+                    b.Navigation("performances");
                 });
 
             modelBuilder.Entity("TestSalarySystem.Models.Tutor", b =>

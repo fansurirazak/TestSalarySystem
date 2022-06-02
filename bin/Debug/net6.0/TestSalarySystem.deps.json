@@ -9,6 +9,7 @@
       "TestSalarySystem/1.0.0": {
         "dependencies": {
           "EntityFrameworkCore.UseRowNumberForPaging": "0.3.0",
+          "Microsoft.AspNet.Providers.Core": "2.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
@@ -17,6 +18,18 @@
         },
         "runtime": {
           "TestSalarySystem.dll": {}
+        }
+      },
+      "EntityFramework/6.0.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20911.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20911.0"
+          }
         }
       },
       "EntityFrameworkCore.UseRowNumberForPaging/0.3.0": {
@@ -65,6 +78,17 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNet.Providers.Core/2.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.0.0"
+        },
+        "runtime": {
+          "lib/net40/System.Web.Providers.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.21122.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "6.0.5"
@@ -2294,6 +2318,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "EntityFramework/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
+      "path": "entityframework/6.0.0",
+      "hashPath": "entityframework.6.0.0.nupkg.sha512"
+    },
     "EntityFrameworkCore.UseRowNumberForPaging/0.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2328,6 +2359,13 @@
       "sha512": "sha512-uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Providers.Core/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JMk31PExMANVDc04aSUyIlcL3pkFVyNg/dDn+ZZzmhZ2CBctI90BWQH1L0zXgD61ZWW5r4ybInV362sRKWIC+A==",
+      "path": "microsoft.aspnet.providers.core/2.0.0",
+      "hashPath": "microsoft.aspnet.providers.core.2.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.5": {
       "type": "package",

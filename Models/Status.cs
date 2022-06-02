@@ -10,7 +10,6 @@ namespace TestSalarySystem.Models
         
         [Key]
         public int StudentID { get; set; }
-        public int TutorID { get; set; }
         public string? status { get; set; }  
 
         public Student? Student { get; set; }

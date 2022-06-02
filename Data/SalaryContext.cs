@@ -19,6 +19,7 @@ namespace TestSalarySystem.Data
 
         public DbSet<Salary> Salaries { get; set; }
         public DbSet<Status> Statuses { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,8 +31,10 @@ namespace TestSalarySystem.Data
             modelBuilder.Entity<Performance>().ToTable("Performance");
             modelBuilder.Entity<Salary>().ToTable("Salary");
             modelBuilder.Entity<Status>().ToTable("Statuses");
-
+            modelBuilder.Entity<User>().ToTable("Users");
 
         }
+
+        public DbSet<TestSalarySystem.Models.User>? User { get; set; }
     }
 }

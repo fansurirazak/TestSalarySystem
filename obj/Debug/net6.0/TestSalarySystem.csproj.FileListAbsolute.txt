@@ -268,3 +268,6 @@ K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\obj\Debug\net6.0\refin
 K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\obj\Debug\net6.0\TestSalarySystem.pdb
 K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\obj\Debug\net6.0\TestSalarySystem.genruntimeconfig.cache
 K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\obj\Debug\net6.0\ref\TestSalarySystem.dll
+K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\bin\Debug\net6.0\EntityFramework.dll
+K:\Programming\C_sharpp\TestSalarySystem\TestSalarySystem\bin\Debug\net6.0\System.Web.Providers.dll
